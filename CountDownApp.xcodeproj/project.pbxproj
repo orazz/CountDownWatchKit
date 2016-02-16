@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1D6B261C735B000096FCB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B251C735B000096FCB6 /* AppDelegate.swift */; };
+		8E1D6B281C735B000096FCB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B271C735B000096FCB6 /* ViewController.swift */; };
+		8E1D6B2B1C735B000096FCB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B291C735B000096FCB6 /* Main.storyboard */; };
+		8E1D6B2D1C735B000096FCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B2C1C735B000096FCB6 /* Assets.xcassets */; };
+		8E1D6B301C735B000096FCB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B2E1C735B000096FCB6 /* LaunchScreen.storyboard */; };
+		8E1D6B3D1C7363D30096FCB6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B3B1C7363D30096FCB6 /* Interface.storyboard */; };
+		8E1D6B3F1C7363D30096FCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B3E1C7363D30096FCB6 /* Assets.xcassets */; };
+		8E1D6B461C7363D30096FCB6 /* Aziada2017 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E1D6B451C7363D30096FCB6 /* Aziada2017 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E1D6B4D1C7363D30096FCB6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B4C1C7363D30096FCB6 /* InterfaceController.swift */; };
+		8E1D6B4F1C7363D30096FCB6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B4E1C7363D30096FCB6 /* ExtensionDelegate.swift */; };
+		8E1D6B511C7363D30096FCB6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B501C7363D30096FCB6 /* NotificationController.swift */; };
+		8E1D6B531C7363D30096FCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1D6B521C7363D30096FCB6 /* Assets.xcassets */; };
+		8E1D6B571C7363D30096FCB6 /* Aziada2017.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8E1D6B391C7363D30096FCB6 /* Aziada2017.app */; };
+		8E1D6B651C7365420096FCB6 /* GeneralIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B601C7365420096FCB6 /* GeneralIC.swift */; };
+		8E1D6B661C7365420096FCB6 /* DayIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B611C7365420096FCB6 /* DayIC.swift */; };
+		8E1D6B671C7365420096FCB6 /* HoursIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B621C7365420096FCB6 /* HoursIC.swift */; };
+		8E1D6B681C7365420096FCB6 /* MinutesIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B631C7365420096FCB6 /* MinutesIC.swift */; };
+		8E1D6B691C7365420096FCB6 /* Seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B641C7365420096FCB6 /* Seconds.swift */; };
+		8E1D6B721C7365990096FCB6 /* Ashgabat2017WatchKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1D6B711C7365990096FCB6 /* Ashgabat2017WatchKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1D6B761C7365990096FCB6 /* Ashgabat2017WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1D6B6F1C7365990096FCB6 /* Ashgabat2017WatchKit.framework */; };
+		8E1D6B771C7365990096FCB6 /* Ashgabat2017WatchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1D6B6F1C7365990096FCB6 /* Ashgabat2017WatchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E1D6B7D1C7365AB0096FCB6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D6B7C1C7365AB0096FCB6 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1D6B471C7363D30096FCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1D6B1A1C735AFF0096FCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D6B441C7363D30096FCB6;
+			remoteInfo = "Aziada2017 Extension";
+		};
+		8E1D6B551C7363D30096FCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1D6B1A1C735AFF0096FCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D6B381C7363D30096FCB6;
+			remoteInfo = Aziada2017;
+		};
+		8E1D6B741C7365990096FCB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1D6B1A1C735AFF0096FCB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1D6B6E1C7365990096FCB6;
+			remoteInfo = Ashgabat2017WatchKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E1D6B5B1C7363D30096FCB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E1D6B461C7363D30096FCB6 /* Aziada2017 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B5F1C7363D30096FCB6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8E1D6B571C7363D30096FCB6 /* Aziada2017.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B7B1C7365990096FCB6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E1D6B771C7365990096FCB6 /* Ashgabat2017WatchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E1D6B221C735B000096FCB6 /* CountDownApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDownApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D6B251C735B000096FCB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E1D6B271C735B000096FCB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E1D6B2A1C735B000096FCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1D6B2C1C735B000096FCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1D6B2F1C735B000096FCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1D6B311C735B000096FCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D6B391C7363D30096FCB6 /* Aziada2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aziada2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D6B3C1C7363D30096FCB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8E1D6B3E1C7363D30096FCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1D6B401C7363D30096FCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D6B451C7363D30096FCB6 /* Aziada2017 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Aziada2017 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D6B4B1C7363D30096FCB6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8E1D6B4C1C7363D30096FCB6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8E1D6B4E1C7363D30096FCB6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8E1D6B501C7363D30096FCB6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8E1D6B521C7363D30096FCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1D6B541C7363D30096FCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D6B601C7365420096FCB6 /* GeneralIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralIC.swift; sourceTree = "<group>"; };
+		8E1D6B611C7365420096FCB6 /* DayIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayIC.swift; sourceTree = "<group>"; };
+		8E1D6B621C7365420096FCB6 /* HoursIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursIC.swift; sourceTree = "<group>"; };
+		8E1D6B631C7365420096FCB6 /* MinutesIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinutesIC.swift; sourceTree = "<group>"; };
+		8E1D6B641C7365420096FCB6 /* Seconds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seconds.swift; sourceTree = "<group>"; };
+		8E1D6B6F1C7365990096FCB6 /* Ashgabat2017WatchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ashgabat2017WatchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D6B711C7365990096FCB6 /* Ashgabat2017WatchKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ashgabat2017WatchKit.h; sourceTree = "<group>"; };
+		8E1D6B731C7365990096FCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1D6B7C1C7365AB0096FCB6 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1D6B1F1C735AFF0096FCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B421C7363D30096FCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B761C7365990096FCB6 /* Ashgabat2017WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B6B1C7365990096FCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1D6B191C735AFF0096FCB6 = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B241C735B000096FCB6 /* CountDownApp */,
+				8E1D6B3A1C7363D30096FCB6 /* Aziada2017 */,
+				8E1D6B491C7363D30096FCB6 /* Aziada2017 Extension */,
+				8E1D6B701C7365990096FCB6 /* Ashgabat2017WatchKit */,
+				8E1D6B231C735B000096FCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1D6B231C735B000096FCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B221C735B000096FCB6 /* CountDownApp.app */,
+				8E1D6B391C7363D30096FCB6 /* Aziada2017.app */,
+				8E1D6B451C7363D30096FCB6 /* Aziada2017 Extension.appex */,
+				8E1D6B6F1C7365990096FCB6 /* Ashgabat2017WatchKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1D6B241C735B000096FCB6 /* CountDownApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B251C735B000096FCB6 /* AppDelegate.swift */,
+				8E1D6B271C735B000096FCB6 /* ViewController.swift */,
+				8E1D6B291C735B000096FCB6 /* Main.storyboard */,
+				8E1D6B2C1C735B000096FCB6 /* Assets.xcassets */,
+				8E1D6B2E1C735B000096FCB6 /* LaunchScreen.storyboard */,
+				8E1D6B311C735B000096FCB6 /* Info.plist */,
+			);
+			path = CountDownApp;
+			sourceTree = "<group>";
+		};
+		8E1D6B3A1C7363D30096FCB6 /* Aziada2017 */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B3B1C7363D30096FCB6 /* Interface.storyboard */,
+				8E1D6B3E1C7363D30096FCB6 /* Assets.xcassets */,
+				8E1D6B401C7363D30096FCB6 /* Info.plist */,
+			);
+			path = Aziada2017;
+			sourceTree = "<group>";
+		};
+		8E1D6B491C7363D30096FCB6 /* Aziada2017 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B4C1C7363D30096FCB6 /* InterfaceController.swift */,
+				8E1D6B4E1C7363D30096FCB6 /* ExtensionDelegate.swift */,
+				8E1D6B501C7363D30096FCB6 /* NotificationController.swift */,
+				8E1D6B601C7365420096FCB6 /* GeneralIC.swift */,
+				8E1D6B611C7365420096FCB6 /* DayIC.swift */,
+				8E1D6B621C7365420096FCB6 /* HoursIC.swift */,
+				8E1D6B631C7365420096FCB6 /* MinutesIC.swift */,
+				8E1D6B641C7365420096FCB6 /* Seconds.swift */,
+				8E1D6B521C7363D30096FCB6 /* Assets.xcassets */,
+				8E1D6B541C7363D30096FCB6 /* Info.plist */,
+				8E1D6B4A1C7363D30096FCB6 /* Supporting Files */,
+			);
+			path = "Aziada2017 Extension";
+			sourceTree = "<group>";
+		};
+		8E1D6B4A1C7363D30096FCB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B4B1C7363D30096FCB6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E1D6B701C7365990096FCB6 /* Ashgabat2017WatchKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D6B7C1C7365AB0096FCB6 /* Extension.swift */,
+				8E1D6B711C7365990096FCB6 /* Ashgabat2017WatchKit.h */,
+				8E1D6B731C7365990096FCB6 /* Info.plist */,
+			);
+			path = Ashgabat2017WatchKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E1D6B6C1C7365990096FCB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B721C7365990096FCB6 /* Ashgabat2017WatchKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E1D6B211C735AFF0096FCB6 /* CountDownApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D6B341C735B000096FCB6 /* Build configuration list for PBXNativeTarget "CountDownApp" */;
+			buildPhases = (
+				8E1D6B1E1C735AFF0096FCB6 /* Sources */,
+				8E1D6B1F1C735AFF0096FCB6 /* Frameworks */,
+				8E1D6B201C735AFF0096FCB6 /* Resources */,
+				8E1D6B5F1C7363D30096FCB6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1D6B561C7363D30096FCB6 /* PBXTargetDependency */,
+			);
+			name = CountDownApp;
+			productName = CountDownApp;
+			productReference = 8E1D6B221C735B000096FCB6 /* CountDownApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1D6B381C7363D30096FCB6 /* Aziada2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D6B5C1C7363D30096FCB6 /* Build configuration list for PBXNativeTarget "Aziada2017" */;
+			buildPhases = (
+				8E1D6B371C7363D30096FCB6 /* Resources */,
+				8E1D6B5B1C7363D30096FCB6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1D6B481C7363D30096FCB6 /* PBXTargetDependency */,
+			);
+			name = Aziada2017;
+			productName = Aziada2017;
+			productReference = 8E1D6B391C7363D30096FCB6 /* Aziada2017.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8E1D6B441C7363D30096FCB6 /* Aziada2017 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D6B581C7363D30096FCB6 /* Build configuration list for PBXNativeTarget "Aziada2017 Extension" */;
+			buildPhases = (
+				8E1D6B411C7363D30096FCB6 /* Sources */,
+				8E1D6B421C7363D30096FCB6 /* Frameworks */,
+				8E1D6B431C7363D30096FCB6 /* Resources */,
+				8E1D6B7B1C7365990096FCB6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1D6B751C7365990096FCB6 /* PBXTargetDependency */,
+			);
+			name = "Aziada2017 Extension";
+			productName = "Aziada2017 Extension";
+			productReference = 8E1D6B451C7363D30096FCB6 /* Aziada2017 Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8E1D6B6E1C7365990096FCB6 /* Ashgabat2017WatchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1D6B781C7365990096FCB6 /* Build configuration list for PBXNativeTarget "Ashgabat2017WatchKit" */;
+			buildPhases = (
+				8E1D6B6A1C7365990096FCB6 /* Sources */,
+				8E1D6B6B1C7365990096FCB6 /* Frameworks */,
+				8E1D6B6C1C7365990096FCB6 /* Headers */,
+				8E1D6B6D1C7365990096FCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ashgabat2017WatchKit;
+			productName = Ashgabat2017WatchKit;
+			productReference = 8E1D6B6F1C7365990096FCB6 /* Ashgabat2017WatchKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1D6B1A1C735AFF0096FCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = orazz;
+				TargetAttributes = {
+					8E1D6B211C735AFF0096FCB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E1D6B381C7363D30096FCB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E1D6B441C7363D30096FCB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8E1D6B6E1C7365990096FCB6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E1D6B1D1C735AFF0096FCB6 /* Build configuration list for PBXProject "CountDownApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1D6B191C735AFF0096FCB6;
+			productRefGroup = 8E1D6B231C735B000096FCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1D6B211C735AFF0096FCB6 /* CountDownApp */,
+				8E1D6B381C7363D30096FCB6 /* Aziada2017 */,
+				8E1D6B441C7363D30096FCB6 /* Aziada2017 Extension */,
+				8E1D6B6E1C7365990096FCB6 /* Ashgabat2017WatchKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1D6B201C735AFF0096FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B301C735B000096FCB6 /* LaunchScreen.storyboard in Resources */,
+				8E1D6B2D1C735B000096FCB6 /* Assets.xcassets in Resources */,
+				8E1D6B2B1C735B000096FCB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B371C7363D30096FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B3F1C7363D30096FCB6 /* Assets.xcassets in Resources */,
+				8E1D6B3D1C7363D30096FCB6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B431C7363D30096FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B531C7363D30096FCB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B6D1C7365990096FCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1D6B1E1C735AFF0096FCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B281C735B000096FCB6 /* ViewController.swift in Sources */,
+				8E1D6B261C735B000096FCB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B411C7363D30096FCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B661C7365420096FCB6 /* DayIC.swift in Sources */,
+				8E1D6B651C7365420096FCB6 /* GeneralIC.swift in Sources */,
+				8E1D6B511C7363D30096FCB6 /* NotificationController.swift in Sources */,
+				8E1D6B671C7365420096FCB6 /* HoursIC.swift in Sources */,
+				8E1D6B4F1C7363D30096FCB6 /* ExtensionDelegate.swift in Sources */,
+				8E1D6B681C7365420096FCB6 /* MinutesIC.swift in Sources */,
+				8E1D6B4D1C7363D30096FCB6 /* InterfaceController.swift in Sources */,
+				8E1D6B691C7365420096FCB6 /* Seconds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1D6B6A1C7365990096FCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1D6B7D1C7365AB0096FCB6 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1D6B481C7363D30096FCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1D6B441C7363D30096FCB6 /* Aziada2017 Extension */;
+			targetProxy = 8E1D6B471C7363D30096FCB6 /* PBXContainerItemProxy */;
+		};
+		8E1D6B561C7363D30096FCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1D6B381C7363D30096FCB6 /* Aziada2017 */;
+			targetProxy = 8E1D6B551C7363D30096FCB6 /* PBXContainerItemProxy */;
+		};
+		8E1D6B751C7365990096FCB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1D6B6E1C7365990096FCB6 /* Ashgabat2017WatchKit */;
+			targetProxy = 8E1D6B741C7365990096FCB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1D6B291C735B000096FCB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1D6B2A1C735B000096FCB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1D6B2E1C735B000096FCB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1D6B2F1C735B000096FCB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1D6B3B1C7363D30096FCB6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1D6B3C1C7363D30096FCB6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1D6B321C735B000096FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1D6B331C735B000096FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1D6B351C735B000096FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountDownApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E1D6B361C735B000096FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountDownApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E1D6B591C7363D30096FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Aziada2017 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		8E1D6B5A1C7363D30096FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Aziada2017 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		8E1D6B5D1C7363D30096FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Aziada2017_Extension;
+				INFOPLIST_FILE = Aziada2017/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		8E1D6B5E1C7363D30096FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Aziada2017_Extension;
+				INFOPLIST_FILE = Aziada2017/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.CountDownApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		8E1D6B791C7365990096FCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ashgabat2017WatchKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.Ashgabat2017WatchKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		8E1D6B7A1C7365990096FCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Ashgabat2017WatchKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = orazz.Ashgabat2017WatchKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1D6B1D1C735AFF0096FCB6 /* Build configuration list for PBXProject "CountDownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D6B321C735B000096FCB6 /* Debug */,
+				8E1D6B331C735B000096FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1D6B341C735B000096FCB6 /* Build configuration list for PBXNativeTarget "CountDownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D6B351C735B000096FCB6 /* Debug */,
+				8E1D6B361C735B000096FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E1D6B581C7363D30096FCB6 /* Build configuration list for PBXNativeTarget "Aziada2017 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D6B591C7363D30096FCB6 /* Debug */,
+				8E1D6B5A1C7363D30096FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E1D6B5C1C7363D30096FCB6 /* Build configuration list for PBXNativeTarget "Aziada2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D6B5D1C7363D30096FCB6 /* Debug */,
+				8E1D6B5E1C7363D30096FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E1D6B781C7365990096FCB6 /* Build configuration list for PBXNativeTarget "Ashgabat2017WatchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1D6B791C7365990096FCB6 /* Debug */,
+				8E1D6B7A1C7365990096FCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1D6B1A1C735AFF0096FCB6 /* Project object */;
+}

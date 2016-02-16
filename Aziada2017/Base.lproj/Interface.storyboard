@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Aziada2017" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="center" image="logo" id="veC-Os-ArV"/>
+                    </items>
+                    <connections>
+                        <segue destination="RZB-F7-zpf" kind="relationship" relationship="nextPage" id="nxV-XN-u0v"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="15" y="345"/>
+        </scene>
+        <!--DayIC-->
+        <scene sceneID="3tF-yG-Tnf">
+            <objects>
+                <controller id="tXd-td-odf" customClass="DayIC" customModule="Aziada2017_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="vIG-zX-yGh">
+                            <items>
+                                <group width="1" alignment="left" id="N3g-Dg-rZ1">
+                                    <items>
+                                        <label width="119" alignment="center" text="AIMAG STARTS IN" textAlignment="left" numberOfLines="0" id="wcy-3t-edN">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                            <variation key="device=watch42mm" width="129">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label width="136" height="62" alignment="center" verticalAlignment="center" text="700" textAlignment="center" id="fqw-mO-0Kd">
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="75"/>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="78"/>
+                                    </variation>
+                                </label>
+                                <label width="108" height="31" alignment="center" verticalAlignment="center" text="DAYS" textAlignment="center" numberOfLines="0" id="Crd-5i-yoB">
+                                    <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    <variation key="device=watch42mm" height="31">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    </variation>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="N3g-Dg-rZ1"/>
+                                    <include reference="fqw-mO-0Kd"/>
+                                    <include reference="Crd-5i-yoB"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="vIG-zX-yGh"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="days" destination="fqw-mO-0Kd" id="pbz-qL-ETs"/>
+                        <segue destination="NyR-vr-LZd" kind="relationship" relationship="nextPage" id="8Hp-4u-ZOV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="416" y="346"/>
+        </scene>
+        <!--HoursIC-->
+        <scene sceneID="QGM-H6-G6I">
+            <objects>
+                <controller id="NyR-vr-LZd" customClass="HoursIC" customModule="Aziada2017_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="s55-8r-5er">
+                            <items>
+                                <group width="1" alignment="left" id="DrI-91-yYI">
+                                    <items>
+                                        <label width="113" alignment="center" text="AIMAG STARTS IN" textAlignment="left" numberOfLines="0" id="tYK-xV-HMl">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                            <variation key="device=watch42mm" alignment="center">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label width="120" height="62" alignment="center" verticalAlignment="center" text="02" textAlignment="center" id="8mF-as-Vr1">
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="65"/>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="78"/>
+                                    </variation>
+                                </label>
+                                <label width="108" height="31" alignment="center" verticalAlignment="center" text="HOURS" textAlignment="center" numberOfLines="0" id="eFX-YK-dZp">
+                                    <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    <variation key="device=watch42mm" height="31">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    </variation>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="DrI-91-yYI"/>
+                                    <include reference="8mF-as-Vr1"/>
+                                    <include reference="eFX-YK-dZp"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="s55-8r-5er"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="hours" destination="8mF-as-Vr1" id="jmn-V8-yez"/>
+                        <segue destination="CGi-qY-aBz" kind="relationship" relationship="nextPage" id="jqa-Bq-cW6"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="602" y="347"/>
+        </scene>
+        <!--MinutesIC-->
+        <scene sceneID="cZh-7D-6MM">
+            <objects>
+                <controller id="CGi-qY-aBz" customClass="MinutesIC" customModule="Aziada2017_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="nbY-UC-7U8">
+                            <items>
+                                <group width="1" alignment="left" id="Eoq-fs-epO">
+                                    <items>
+                                        <label width="113" alignment="center" text="AIMAG STARTS IN" textAlignment="left" numberOfLines="0" id="RTI-J4-dEg">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                            <variation key="device=watch42mm" alignment="center">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label width="120" height="62" alignment="center" verticalAlignment="center" text="47" textAlignment="center" id="PLw-1O-tiX">
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="65"/>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="78"/>
+                                    </variation>
+                                </label>
+                                <label width="108" height="31" alignment="center" verticalAlignment="center" text="MINUTES" textAlignment="center" numberOfLines="0" id="y88-87-on6">
+                                    <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    <variation key="device=watch42mm" height="31">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    </variation>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="Eoq-fs-epO"/>
+                                    <include reference="PLw-1O-tiX"/>
+                                    <include reference="y88-87-on6"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="nbY-UC-7U8"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="minutes" destination="PLw-1O-tiX" id="99C-sb-9Ds"/>
+                        <segue destination="2Rf-Ze-d4w" kind="relationship" relationship="nextPage" id="kK6-Lu-9Ou"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="785" y="347"/>
+        </scene>
+        <!--SecondsIC-->
+        <scene sceneID="D81-Iq-oWp">
+            <objects>
+                <controller id="2Rf-Ze-d4w" customClass="SecondsIC" customModule="Aziada2017_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="TJX-ku-voR">
+                            <items>
+                                <group width="1" alignment="left" id="WaZ-Ls-D5n">
+                                    <items>
+                                        <label width="113" alignment="center" text="AIMAG STARTS IN" textAlignment="left" numberOfLines="0" id="YiR-s0-MtJ">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                            <variation key="device=watch42mm" alignment="center">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label width="120" height="62" alignment="center" verticalAlignment="center" text="--" textAlignment="center" id="WRo-FS-hXM">
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="65"/>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="78"/>
+                                    </variation>
+                                </label>
+                                <label width="108" height="31" alignment="center" verticalAlignment="center" text="SECONDS" textAlignment="center" numberOfLines="0" id="Agq-7h-HTN">
+                                    <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    <variation key="device=watch42mm" height="31">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="20"/>
+                                    </variation>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="WaZ-Ls-D5n"/>
+                                    <include reference="WRo-FS-hXM"/>
+                                    <include reference="Agq-7h-HTN"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="TJX-ku-voR"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="seconds" destination="WRo-FS-hXM" id="xm4-c0-Lu3"/>
+                        <segue destination="6yi-y4-zCQ" kind="relationship" relationship="nextPage" id="Y1O-dI-gnh"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="955" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Eht-cB-SuG">
+            <objects>
+                <controller id="6yi-y4-zCQ">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="Mbg-Qo-tHh">
+                            <items>
+                                <group width="1" alignment="left" id="Cxf-qD-aoT">
+                                    <items>
+                                        <label width="110" alignment="center" text="OFFICIAL WEBSITE OF GAMES" textAlignment="left" numberOfLines="0" id="PRG-Xn-X0D">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="17"/>
+                                            <variation key="device=watch42mm" width="145">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="19"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label height="51" alignment="center" verticalAlignment="center" text="ashgabat2017.gov.tm" textAlignment="center" id="r0o-8g-eau">
+                                    <fontDescription key="font" type="system" weight="heavy" pointSize="11"/>
+                                    <variation key="device=watch42mm">
+                                        <fontDescription key="font" type="system" weight="heavy" pointSize="13"/>
+                                    </variation>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="Cxf-qD-aoT"/>
+                                    <include reference="r0o-8g-eau"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="Mbg-Qo-tHh"/>
+                        </mask>
+                    </variation>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1123" y="346"/>
+        </scene>
+        <!--GeneralIC-->
+        <scene sceneID="Nw6-ky-PHt">
+            <objects>
+                <controller id="RZB-F7-zpf" customClass="GeneralIC" customModule="Aziada2017_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="left" backgroundImage="back" layout="vertical" radius="0.0" id="qFs-pZ-sE8">
+                            <items>
+                                <group width="136" height="40" alignment="center" id="Juw-PN-hct">
+                                    <items>
+                                        <label width="1" height="41" alignment="center" text="DAYS LEFT UNTILL GAMES START" textAlignment="left" numberOfLines="0" id="wgO-6w-Ho5">
+                                            <color key="textColor" red="0.90980398650000005" green="0.91372555489999996" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="15"/>
+                                            <variation key="device=watch42mm" alignment="left">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="16"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="37"/>
+                                    <variation key="device=watch42mm" alignment="center" width="140"/>
+                                </group>
+                                <group width="1" height="25" alignment="center" id="9qK-JA-fd7">
+                                    <items>
+                                        <label width="53" height="25" alignment="right" verticalAlignment="center" text="700" textAlignment="right" id="XQN-Ve-Ce0">
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="28"/>
+                                            <variation key="device=watch38mm" width="56"/>
+                                            <variation key="device=watch42mm" width="58">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="32"/>
+                                            </variation>
+                                        </label>
+                                        <label width="80" height="19" alignment="right" verticalAlignment="bottom" text="Days" id="GsE-JW-2wI">
+                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="18"/>
+                                            <variation key="device=watch42mm">
+                                                <fontDescription key="font" type="system" pointSize="18"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="22"/>
+                                </group>
+                                <group width="1" height="23" alignment="center" id="4xd-w6-byA">
+                                    <items>
+                                        <label width="36" height="25" alignment="right" verticalAlignment="center" text="02" textAlignment="right" id="7ai-ud-Thd">
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="28"/>
+                                            <variation key="device=watch38mm" width="56"/>
+                                            <variation key="device=watch42mm" width="58">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="32"/>
+                                            </variation>
+                                        </label>
+                                        <label width="80" height="19" alignment="right" verticalAlignment="bottom" text="Hours" id="guU-nj-KcT">
+                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="18"/>
+                                            <variation key="device=watch42mm">
+                                                <fontDescription key="font" type="system" pointSize="18"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="22"/>
+                                </group>
+                                <group width="1" height="22" alignment="center" id="9or-S6-GHL">
+                                    <items>
+                                        <label width="38" alignment="right" verticalAlignment="center" text="47" textAlignment="right" id="Lwk-wg-BKS">
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="28"/>
+                                            <variation key="device=watch38mm" width="56"/>
+                                            <variation key="device=watch42mm" width="58">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="32"/>
+                                            </variation>
+                                        </label>
+                                        <label width="80" height="19" alignment="right" verticalAlignment="bottom" text="Minutes" id="4hs-Cz-Rcq">
+                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="18"/>
+                                            <variation key="device=watch42mm">
+                                                <fontDescription key="font" type="system" pointSize="18"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch38mm" height="21"/>
+                                </group>
+                                <group width="1" height="21" alignment="center" id="J4G-CD-dHw">
+                                    <items>
+                                        <label width="38" alignment="right" verticalAlignment="center" text="--" textAlignment="right" id="85s-S0-LyI">
+                                            <fontDescription key="font" type="system" weight="heavy" pointSize="28"/>
+                                            <variation key="device=watch38mm" width="56"/>
+                                            <variation key="device=watch42mm" width="58">
+                                                <fontDescription key="font" type="system" weight="heavy" pointSize="32"/>
+                                            </variation>
+                                        </label>
+                                        <label width="80" height="19" alignment="right" verticalAlignment="bottom" text="Seconds" id="GWY-Rn-M0p">
+                                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="system" pointSize="16"/>
+                                            <variation key="device=watch42mm">
+                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                            </variation>
+                                        </label>
+                                    </items>
+                                    <variation key="device=watch42mm" height="23"/>
+                                </group>
+                            </items>
+                            <variation key="device=watch38mm">
+                                <mask key="items">
+                                    <include reference="Juw-PN-hct"/>
+                                    <include reference="9qK-JA-fd7"/>
+                                    <include reference="4xd-w6-byA"/>
+                                    <include reference="9or-S6-GHL"/>
+                                    <include reference="J4G-CD-dHw"/>
+                                </mask>
+                            </variation>
+                        </group>
+                    </items>
+                    <variation key="device=watch38mm">
+                        <mask key="items">
+                            <include reference="qFs-pZ-sE8"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="days" destination="XQN-Ve-Ce0" id="d1i-sp-aeh"/>
+                        <outlet property="hours" destination="7ai-ud-Thd" id="jiH-3p-8F3"/>
+                        <outlet property="minutesLB" destination="Lwk-wg-BKS" id="gid-tT-PqU"/>
+                        <outlet property="seconds" destination="85s-S0-LyI" id="QVW-GC-v8O"/>
+                        <segue destination="tXd-td-odf" kind="relationship" relationship="nextPage" id="LvQ-GW-Upe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="212" y="346"/>
+        </scene>
+    </scenes>
+</document>

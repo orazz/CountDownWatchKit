@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FiraSans-Bold.otf">
+            <string>FiraSans-Bold</string>
+            <string>FiraSans-Bold</string>
+            <string>FiraSans-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CountDownApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AIMAG starts in" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myj-bn-82b">
+                                <rect key="frame" x="219" y="220" width="162" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="UVS-6w-lWr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="23"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="UVS-6w-lWr"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="UVS-6w-lWr"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="700:04:33:22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgn-MJ-Xjk">
+                                <rect key="frame" x="125" y="265" width="351" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="bBO-kQ-xwc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="bBO-kQ-xwc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="bBO-kQ-xwc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="click the numbers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBx-UK-thD">
+                                <rect key="frame" x="232" y="373" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The V Asian Indoor and Martial Arts Games" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1MV-oi-2u9">
+                                <rect key="frame" x="125" y="172" width="348" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="qPY-bf-ISp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="18"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="qPY-bf-ISp"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="qPY-bf-ISp"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASHGABAT 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlV-cp-E9l">
+                                <rect key="frame" x="210" y="126" width="179" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="RxF-tj-6wx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FiraSans-Bold" family="Fira Sans" pointSize="23"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RxF-tj-6wx"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="RxF-tj-6wx"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VBx-UK-thD" firstAttribute="top" secondItem="Wgn-MJ-Xjk" secondAttribute="bottom" constant="38" id="0hj-3g-saZ"/>
+                            <constraint firstItem="RlV-cp-E9l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="106" id="6hh-K5-xiK"/>
+                            <constraint firstItem="Wgn-MJ-Xjk" firstAttribute="top" secondItem="Myj-bn-82b" secondAttribute="bottom" constant="18" id="ByS-Fq-gX0"/>
+                            <constraint firstItem="Wgn-MJ-Xjk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DML-MY-5Au"/>
+                            <constraint firstItem="Myj-bn-82b" firstAttribute="centerX" secondItem="1MV-oi-2u9" secondAttribute="centerX" constant="1" id="Fj1-8j-zEd"/>
+                            <constraint firstItem="1MV-oi-2u9" firstAttribute="centerX" secondItem="RlV-cp-E9l" secondAttribute="centerX" id="GEk-Wq-drx"/>
+                            <constraint firstItem="1MV-oi-2u9" firstAttribute="top" secondItem="RlV-cp-E9l" secondAttribute="bottom" constant="19" id="JlP-Ob-b58"/>
+                            <constraint firstItem="RlV-cp-E9l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PTb-gl-FTN"/>
+                            <constraint firstItem="Wgn-MJ-Xjk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rc3-Ze-Bjf"/>
+                            <constraint firstItem="Wgn-MJ-Xjk" firstAttribute="centerX" secondItem="VBx-UK-thD" secondAttribute="centerX" id="ryd-Yn-S2i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countDown" destination="Wgn-MJ-Xjk" id="9fn-sm-vJK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="389"/>
+        </scene>
+    </scenes>
+</document>
